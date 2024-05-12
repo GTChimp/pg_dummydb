@@ -1,3 +1,4 @@
 #paths to files from root of the repo
+OBJ\Schemas\main\log_ci_results.sql
 OBJ\Schemas\main\schema.sql
 OBJ\Schemas\main\Tables\test_table1.sql
