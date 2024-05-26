@@ -11,7 +11,7 @@ CREATE FUNCTION main.fn_get_ci_results(
         deploy_type   main.log_ci_results.deploy_type%TYPE
     )
 AS
-$$
+$routine$
 BEGIN
     RETURN QUERY SELECT
                      lc.branch
@@ -22,5 +22,5 @@ BEGIN
                  FROM
                      main.log_ci_results lc;
 END;
-$$
+$routine$
     LANGUAGE plpgsql;
