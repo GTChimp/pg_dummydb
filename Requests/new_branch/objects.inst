@@ -1,0 +1,3 @@
+#paths to files from root of the repo
+Requests\new_branch\alter_tables.sql
+OBJ\Schemas\main\Functions\fn_get_ci_results.sql
