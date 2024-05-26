@@ -2,3 +2,4 @@
 OBJ\Schemas\main\schema.sql
 OBJ\Schemas\main\Tables\log_ci_results.sql
 OBJ\Schemas\main\Tables\test_table1.sql
+OBJ\Schemas\main\Functions\fn_get_ci_results.sql
