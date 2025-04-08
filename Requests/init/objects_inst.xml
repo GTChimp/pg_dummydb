@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+
+    <changeSet id="init-001" author="auto">
+        <sqlFile path="OBJ/Schemas/main/schema.sql" relativeToChangelogFile="false"/>
+        <sqlFile path="OBJ/Schemas/main/Tables/log_ci_results.sql" relativeToChangelogFile="false"/>
+        <sqlFile path="OBJ/Schemas/main/Tables/test_table1.sql" relativeToChangelogFile="false"/>
+        <sqlFile path="OBJ/Schemas/main/Functions/fn_get_ci_results.sql" relativeToChangelogFile="false" endDelimiter="|"/>
+    </changeSet>
+</databaseChangeLog>
